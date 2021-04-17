@@ -40,7 +40,7 @@ do
     XTRA_OPTS[$E]="-x ${XTRA_OPTS[$E]}"
 done
 
-OPTS="-r"
+OPTS="-r -x -s 4"
 OLD_EXT=bin
 EXT=float32 # NumPy float32 dtype format
 

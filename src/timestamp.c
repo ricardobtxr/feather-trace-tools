@@ -35,6 +35,7 @@ static struct event_name event_table[] =
 	EVENT(UNLOCK),
 	EVENT(READ_LOCK),
 	EVENT(READ_UNLOCK),
+	EVENT(TREE),
 	{"LOCK_SUSPEND", TS_LOCK_SUSPEND},
 	{"LOCK_RESUME", TS_LOCK_RESUME},
 };
